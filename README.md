@@ -1,12 +1,12 @@
 # 🧠 Flutter Face Detection App Overview
 
 ## 📦 Imports & Dependencies
-- 'dart:io': Provides I/O functionality for file operations 📁
-- 'dart:math': Offers mathematical functions like max() used in IoU calculations 📐 [[3]](https://pub.dev/packages/image )
-- 'package:flutter/material.dart': Core Flutter framework for Material Design UIs 🎨 [[2]](https://pub.dev/packages/camera )
-- 'package:camera/camera.dart': Plugin to control camera hardware (preview, capture) 📸 [[1]](https://pub.dev/packages/camera )
-- 'package:tflite_flutter/tflite_flutter.dart': For running TensorFlow Lite models on Android/iOS 🤖 [[6]](https://pub.dev/packages/tflite_flutter )
-- 'package:image/image.dart' as img: Dart image library for decoding/encoding and transformations 🖼️ [[3]](https://pub.dev/packages/image )
+- `dart:io`: Provides I/O functionality for file operations 📁
+- `dart:math`: Offers mathematical functions like max() used in IoU calculations 📐 [[3]](https://pub.dev/packages/image )
+- `package:flutter/material.dart`: Core Flutter framework for Material Design UIs 🎨 [[2]](https://pub.dev/packages/camera )
+- `package:camera/camera.dart`: Plugin to control camera hardware (preview, capture) 📸 [[1]](https://pub.dev/packages/camera )
+- `package:tflite_flutter/tflite_flutter.dart`: For running TensorFlow Lite models on Android/iOS 🤖 [[6]](https://pub.dev/packages/tflite_flutter )
+- `package:image/image.dart` as img: Dart image library for decoding/encoding and transformations 🖼️ [[3]](https://pub.dev/packages/image )
 
 ## 🌐 Global Variables
 - `List<CameraDescription> cameras = []`: Stores available device cameras 📷
